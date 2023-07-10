@@ -121,3 +121,39 @@
         margin: 1em 0;
     }
 }
+
+@media screen and (min-width : 1728px) {
+    .carrosel__titulo {
+        font-size: 32px;
+        
+    }
+
+    .container__swiper-card {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 10em;
+    }
+
+    .swiper {
+        width: 40%;
+        padding-bottom: 5em;
+    }
+
+    .card {
+        width: 40%;
+    }
+
+    .descricao__titulo {
+        font-size: 32px;
+    }
+
+    .descricao__titulo-livro {
+        font-size: 18px;
+    }
+
+    .swiper-button-prev, .swiper-button-next {
+        display: block;
+        top: 50%;
+    }
+}
